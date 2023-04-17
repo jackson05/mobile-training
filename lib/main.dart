@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
           mainAxisAlignment: MainAxisAlignment.center,
 
-          children: [
+          children: const [
             Text('Loading...'),
             SizedBox(height: 16.0),
             CircularProgressIndicator(
@@ -72,7 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
 
       bottomNavigationBar: BottomNavigationBar(
-        items: [
+        items: const [
            BottomNavigationBarItem(
               icon: Icon(Icons.search),
               label:'Search'),
