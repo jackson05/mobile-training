@@ -24,20 +24,8 @@ class Login extends StatelessWidget{
                 ),
               ),
               SizedBox(height: 25,),
-              Padding(
-                  padding:  EdgeInsets.symmetric(horizontal: 2.5),
-                  child: TextField(
-                    decoration: InputDecoration(
-                        enabledBorder: OutlineInputBorder(
-                            borderSide: BorderSide(color: Colors.white)
-                        ),
-                        focusedBorder: OutlineInputBorder(
-                          borderSide: BorderSide(color: Colors.grey),
-                        )
-                    ),
 
-                  ),
-              )
+
 
 
             ],
