@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:minder/user/login/login.dart';
 
 void main() {
   runApp(const MyApp());
+  //runApp(const Login());
 }
 
 class MyApp extends StatelessWidget {
@@ -16,7 +18,8 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.indigo,
       ),
-      home: const MyHomePage(title: 'Travel Map'),
+      //home: const MyHomePage(title: 'Travel Map'),
+      home: const Login(),
     );
   }
 }
@@ -32,19 +35,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  double latitude = 0;
 
-  void drawShape() {
-    setState(() {
-      latitude++;
-    });
-  }
-
-  void cleanShape(){
-    setState(() {
-      -latitude--;
-    });
-  }
 
   @override
   Widget build(BuildContext context) {
