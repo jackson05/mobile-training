@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:minder/user/login/loginField.dart';
 
 class Login extends StatelessWidget{
   const Login({super.key});
@@ -7,6 +8,7 @@ class Login extends StatelessWidget{
   Widget build(BuildContext context) {
 
     return Scaffold(
+
       backgroundColor: Colors.grey[300],
       body: SafeArea (
         child: Center(
@@ -25,7 +27,9 @@ class Login extends StatelessWidget{
               ),
               SizedBox(height: 25,),
 
-
+              LoginField(),
+              SizedBox(height: 10,),
+              LoginField(),
 
 
             ],
